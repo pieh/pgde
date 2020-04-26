@@ -36,6 +36,10 @@ Will limit profiling only to time selected activities are active. You can pick m
 pgde build --activity="run queries,source and"
 ```
 
+### `--clean` flag
+
+This is the same as running `gatsby clean` (just quality of life helper). Works with both `pgde build` and `pgde develop`
+
 ### Programmatic usage
 
 You can use it in code (`pgde` adds few functions to global scope that are similar to `console.time` / `console.timeEnd` - not exactly)
