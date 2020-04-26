@@ -1,0 +1,19 @@
+{
+  "name": "@pieh/gde",
+  "version": "0.0.0-alpha.2",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "pgde": "cli.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.15",
+    "open": "^7.0.3",
+    "random-port": "^0.1.0",
+    "signal-exit": "^3.0.3",
+    "timeline-viewer": "ChromeDevTools/timeline-viewer",
+    "yargs": "^15.3.1"
+  }
+}
